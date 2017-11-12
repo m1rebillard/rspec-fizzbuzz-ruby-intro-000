@@ -6,5 +6,8 @@ def fizzbuzz(given_number)
   if (given_number % 5 == 0)
     string_return.concat("Buzz")
   end
+  if (string_return == "")
+    string_return = nil
+  end
   return string_return
 end
